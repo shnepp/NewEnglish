@@ -9,9 +9,9 @@
 -->
 <?php
 		//Подключаемся к базе
-		$user = 'root';
-        $pass = '';
-        $dbh = new PDO('mysql:host=localhost;dbname=new_english', $user, $pass);
+		$user = 'b7319c85c459b1';
+        $pass = '4b13204c';
+        $dbh = new PDO('mysql:host=eu-cdbr-west-02.cleardb.net;dbname=new_english', $user, $pass);
         $dbh->exec("set names utf8");
         
 
