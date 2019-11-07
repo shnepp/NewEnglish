@@ -9,7 +9,7 @@
 -->
 <?php
 		
-echo "connection to DB in progress...";
+echo "connection to DB in progress...</br>";
 //Подключаемся к базе
 		$user = 'b7319c85c459b1';
         $pass = '4b13204c';
