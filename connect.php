@@ -16,5 +16,5 @@ echo "connection to DB in progress...";
         $dbh = new PDO('mysql:host=eu-cdbr-west-02.cleardb.net;dbname=new_english', $user, $pass);
         $dbh->exec("set names utf8");
 
-        
+        echo "connection succeed";
 
