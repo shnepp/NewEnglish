@@ -133,10 +133,10 @@ include_once('fetch.php'); ?>
 
                     //Подсвечиваем зеленым цветом правильно выбранные слова
                     //*пока отключено
-                    //else {
+                    else {
                       
-                    //  $(this).removeClass('btn-dark');
-                    //  $(this).addClass('btn-success');
+                      $(this).removeClass('btn-dark');
+                      $(this).addClass('btn-success');
                     //}
 
 
